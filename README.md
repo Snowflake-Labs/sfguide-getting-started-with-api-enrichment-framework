@@ -1,4 +1,4 @@
-# sfguide-getting-started-with-api-enrichment-framework
+# Getting started with the API Enrichment Framework
 
 The API Enrichment Framework is designed to quick start you API based Native App.
 A consumer can download the app, enter credentials, and enrich any table with the application.
