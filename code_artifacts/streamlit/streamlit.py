@@ -234,6 +234,7 @@ class page_two(Base_Page):
         CREATE OR REPLACE TASK DATA.{task_name}_ENRICHMENT_TASK
         USER_TASK_MANAGED_INITIAL_WAREHOUSE_SIZE = '{wh_size}'
         SCHEDULE = 'USING CRON {sched} America/Los_Angeles'
+        COMMENT = 'sit_api_enrichment_framework'
         AS
             CALL SRC.ENRICH_DATA_WRAPPER({task_id})
             """)
