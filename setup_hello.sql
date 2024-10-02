@@ -115,6 +115,7 @@ grant usage on procedure SRC.update_reference(string,string,string) to applicati
 
 CREATE OR REPLACE STREAMLIT src.streamlit
   FROM '/code_artifacts/streamlit'
-  MAIN_FILE = '/streamlit.py';
+  MAIN_FILE = '/streamlit.py'
+  COMMENT = 'sit_api_enrichment_framework';
 
 GRANT USAGE ON STREAMLIT src.streamlit TO APPLICATION ROLE PUBLIC_DB_ROLE;
