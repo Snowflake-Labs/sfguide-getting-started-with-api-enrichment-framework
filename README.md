@@ -1,6 +1,6 @@
 # Getting started with the API Enrichment Framework
 
-The API Enrichment Framework is designed to quick start you API based Native App.
+The API Enrichment Framework is a Native App that has been pre-set with infrastructure to allow the Consumer to enrich data in their account from an API. The Framework also includes a SiS manager app to help the provider configure the API settings.
 A consumer can download the app, enter credentials, and enrich any table with the application.
 
 Copyright (c) 2024 Snowflake Inc. All Rights Reserved.
